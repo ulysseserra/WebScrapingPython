@@ -43,6 +43,15 @@ Com esse artigo você vai pode fazer um web scraper do zero e ainda sem complica
 <strong>Pip</strong>
 <p>O <a href="https://pip.pypa.io/en/stable/installing/">pip</a> vai servir para instalarmos as bibliotecas que iremos usar de uma forma fácil e rápida!</p>
 
+<strong><p>Atualização pip</p></strong>
+<p>Atualizando o seu executando:pip</p>
+
+<strong><p>Linux</p></strong>
+<em>$ python -m pip install --upgrade pip</em>
+
+<strong><p>Windows</p></strong>
+<em>C:> py -m pip install --upgrade pip</em>
+
 <strong>Requests</strong>
 <p>Para instalar a biblioteca que iremos usar para fazermos nossas requisições é a requests, você pode instalar-la facilmente com o pip com os seguintes comandos:</p>
 
