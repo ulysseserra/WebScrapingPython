@@ -33,15 +33,15 @@ Com esse artigo você vai pode fazer um web scraper do zero e ainda sem complica
 <p>Além de jornalistas que recolhem informações de alguma notícia, entrevista, relatório, reportagem.</p>
 
 <strong>O que é preciso para fazer um web scraping Python?</strong>
-<p>Para fazer um web scraping Python, obviamente vamos precisar do Python, mais especificamente a versão 3.</p>
+<p>Para fazer um web scraping Python, obviamente vamos precisar do <a href="https://www.python.org/downloads/">Python</a>, mais especificamente a versão 3.</p>
 
 <p>Iremos usar o pip para baixar as bibliotecas que iremos usar para fazer o web scraping Python, que serão elas: a Beautiful Soup, a biblioteca requests, e um editor de texto de sua preferência.</p>
 
 <strong>Python 3</strong>
-<p>Você pode encontrar o instalador do Python de acordo com o seu sistema operacional.</p>
+<p>Você pode encontrar o <a href="https://www.python.org/downloads/">instalador do Python</a> de acordo com o seu sistema operacional.</p>
 
 <strong>Pip</strong>
-<p>O pip vai servir para instalarmos as bibliotecas que iremos usar de uma forma fácil e rápida!</p>
+<p>O <a href="https://pip.pypa.io/en/stable/installing/">pip</a> vai servir para instalarmos as bibliotecas que iremos usar de uma forma fácil e rápida!</p>
 
 <strong>Requests</strong>
 <p>Para instalar a biblioteca que iremos usar para fazermos nossas requisições é a requests, você pode instalar-la facilmente com o pip com os seguintes comandos:</p>
@@ -66,7 +66,7 @@ Com esse artigo você vai pode fazer um web scraper do zero e ainda sem complica
 <p>Execute o prompt de comando como administrador e instale-a com o comando <em>pip install beautifulsoup4</em> e, se tudo der certo, vai retornar algo parecido com a imagem a seguir:</p>
 
 <strong>O que você pode fazer com web scraping Python?</strong>
-<p>Você pode fazer muitas coisas com web scraping Python, neste artigo irei desenvolver um script bem simples que coleta dados e previsões do site do Climatempo como um exemplo prático.</p>
+<p>Você pode fazer muitas coisas com web scraping Python, neste artigo irei desenvolver um script bem simples que coleta dados e previsões do site do <a href="https://www.climatempo.com.br/">Climatempo</a> como um exemplo prático.</p>
 
 <p>Iremos tratar esses dados e ver qual a temperatura mínima e máxima de sua cidade, é bem simples e introdutório.</p>
 
@@ -95,9 +95,9 @@ print(soup.prettify())</em>
 
 <p>Nestas linhas de código, estamos importanto as bibliotecas BeautifulSoup e requests nas duas primeiras linhas.</p>
 
-<p>Na terceira estamos pegando todo o conteúdo de um requisição get na url do Clima tempo.</p>
+<p>Na terceira estamos pegando todo o conteúdo de um requisição get na url do <a href="https://www.climatempo.com.br/">Clima tempo</a>.</p>
 
-<p>Na quarta e quinta linha é criado um objeto chamado soup que está interpretando o documento HTML.</p>
+<p>Na quarta e quinta linha é criado um objeto chamado soup que está interpretando o documento <a href="https://blog.geekhunter.com.br/tudo-sobre-html-para-front-ends/">HTML.</a></p>
 
 <p>Agora, execute-o no seu terminal ou prompt de comando com python nome-do-seu-arquivo.py e podemos ver que ele retornará todo o HTML da página.</p>
 
@@ -118,6 +118,6 @@ print(temperatura.string)</em>
 <p>Após selecionar o texto que quer raspar basta achar o elemento pela identificação dele, seja id ou class, se for por id você pode encontrá-lo deste jeito: soup.find(id=”link3″), e na última linha de código estou mostrando na tela o texto cru deste elemento HTML, fácil né?</p>
 
 <strong>Conseguiu fazer o seu web scraper?</strong>
-<p>Se quiser se aventurar e fazer mais web scraping python, de uma olhada na documentação da biblioteca que usamos no artigo.</p>
+<p>Se quiser se aventurar e fazer mais web scraping python, de uma olhada na <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">documentação da biblioteca</a> que usamos no artigo.</p>
 
 <p>Qualquer dúvida, só comentar.</p>
