@@ -127,6 +127,6 @@ print(temperatura.string)</em>
 <p>Após selecionar o texto que quer raspar basta achar o elemento pela identificação dele, seja id ou class, se for por id você pode encontrá-lo deste jeito: soup.find(id=”link3″), e na última linha de código estou mostrando na tela o texto cru deste elemento HTML, fácil né?</p>
 
 <strong>Conseguiu fazer o seu web scraper?</strong>
-<p>Se quiser se aventurar e fazer mais web scraping python, de uma olhada na <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">documentação da biblioteca</a> que usamos no artigo.</p>
+<p>Se quiser se aventurar e fazer mais web scraping python, de uma olhada na <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">documentação da biblioteca</a> que usei no artigo.</p>
 
 <p>Qualquer dúvida, só comentar.</p>
